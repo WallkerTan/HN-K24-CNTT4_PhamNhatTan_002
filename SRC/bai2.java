@@ -32,8 +32,11 @@ public class bai2 {
         String str = sc.nextLine();
 
         String[] A = str.toLowerCase().split(" ");
-
-        output(A);
+        if(A.length==0){
+            System.out.println("chuoi khong duoc de rong");
+        }else{
+            output(A);
+        }
 
         sc.close();
     }
